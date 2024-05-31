@@ -1,0 +1,11 @@
+/* UploadButton.css */
+.upload-button {
+  background-color: #3498db;
+  color: white;
+  padding: 20px 80px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width :100px;
+  margin:auto;
+}

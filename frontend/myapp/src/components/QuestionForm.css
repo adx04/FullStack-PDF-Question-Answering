@@ -1,0 +1,30 @@
+/* QuestionForm.css */
+.question-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto; 
+  width: 50%; 
+}
+
+.question-form input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.question-form button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.question-form button:hover,
+.question-form button:focus {
+  background-color: #2980b9;
+}

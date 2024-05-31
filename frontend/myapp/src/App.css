@@ -1,0 +1,39 @@
+/* App.css */
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+}
+
+
+.App h1 {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0.5, 0.5);
+}
+
+.App p {
+  color: #fff;
+}
+
+.App-link {
+  color: #61dafb;
+  transition: color 0.3s ease-in-out;
+}
+
+.App-link:hover {
+  color: #3498db;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
